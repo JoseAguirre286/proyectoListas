@@ -7,15 +7,15 @@ public class main {
         LinkedList<empleados> Empleados = new LinkedList<empleados>();
          for (int i = 0; i < 2; i++) {
             empleados item = new empleados(null, null, null, i, null);
-            System.out.println("Ingrese el nombre del empleado");
+            System.out.println("Ingrese por favor el nombre del empleado");
             item.setNombre(sc.next());
-            System.out.println("Ingrese el apellido del empleado");
+            System.out.println("Ingrese por favor el apellido del empleado");
             item.setApellido(sc.next());
-            System.out.println("Ingrese la dirección del empleado");
+            System.out.println("Ingrese por favor la dirección del empleado");
             item.setDireccion(sc.next());
-            System.out.println("Ingrese edad del empleado");
+            System.out.println("Ingrese por favor edad del empleado");
             item.setEdad(sc.nextInt());
-            System.out.println("Ingrese el cargo del empleado");
+            System.out.println("Ingrese por favor el cargo del empleado");
             item.setCargo(sc.next());
             System.out.println(" ");
             Empleados.add(item);
